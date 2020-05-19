@@ -6,19 +6,19 @@
                 "nextId": "job_offer"
             },
             {
-                "content": "エンジニアのキャリアについて相談したい",
-                "nextId": "consultant"
+                "content": "CGみてみたい",
+                "nextId": "cgcreate"
             },
             {
-                "content": "学習コミュニティについて知りたい",
-                "nextId": "community"
+                "content": "note読みたい",
+                "nextId": "note"
             },
             {
-                "content": "お付き合いしたい",
-                "nextId": "dating"
+                "content": "こじょーがしりたい",
+                "nextId": "whoareyou"
             }
         ],
-        "question": "こんにちは！😀 KJになにか用があるのかな？"
+        "question": "こんにちは！😀 こじょーになにか用があるのかい？"
     },
     "job_offer": {
         "answers": [
@@ -27,19 +27,19 @@
                 "nextId": "website"
             },
             {
-                "content": "Webアプリを開発してほしい",
-                "nextId": "webapp"
+                "content": "映像制作をお願いしたい",
+                "nextId": "videoproduction"
             },
             {
-                "content": "自動化ツールを作ってほしい",
-                "nextId": "automation_tool"
+                "content": "脚本をかいてほしい",
+                "nextId": "screenscript"
             },
             {
                 "content": "その他",
                 "nextId": "other_jobs"
             }
         ],
-        "question": "どのようなお仕事でしょうか？"
+        "question": "何をお願いしたいんだー？"
     },
     "website": {
         "answers": [
@@ -52,9 +52,9 @@
                 "nextId": "init"
             }
         ],
-        "question": "Webサイト細作についてですね。コチラからお問い合わせできます。"
+        "question": "Webサイト制作ねー。こっから問い合わせよろ"
     },
-    "webapp": {
+    "videoproduction": {
         "answers": [
             {
                 "content": "問い合わせる",
@@ -65,9 +65,9 @@
                 "nextId": "init"
             }
         ],
-        "question": "Webアプリ開発についてですね。コチラからお問い合わせできます。"
+        "question": "映像制作ね、こっから問い合わせてくれー"
     },
-    "automation_tool": {
+    "screenscript": {
         "answers": [
             {
                 "content": "問い合わせる",
@@ -78,7 +78,7 @@
                 "nextId": "init"
             }
         ],
-        "question": "自動化ツール開発についてですね。コチラからお問い合わせできます。"
+        "question": "脚本ねぇ〜。こっから連絡してみて"
     },
     "other_jobs": {
         "answers": [
@@ -91,70 +91,70 @@
                 "nextId": "init"
             }
         ],
-        "question": "その他についてですね。コチラからお問い合わせできます。"
+        "question": "その他かい！こっから連絡して！"
     },
-    "consultant": {
+    "cgcreate": {
         "answers": [
             {
                 "content": "YouTubeで動画を見る",
-                "nextId": "https://www.youtube.com/channel/UC-bOAxx-YOsviSmqh8COR0w"
+                "nextId": "https://www.youtube.com/watch?v=qKRMK2JSh4Q&list=PLOE1N4LuZaBgwOhEKvww9D4cVfShMdr5L"
             },
             {
-                "content": "学習コミュニティについて知りたい",
-                "nextId": "community"
+                "content": "note読みたい",
+                "nextId": "note"
             },
             {
                 "content": "最初の質問に戻る",
                 "nextId": "init"
             }
         ],
-        "question": "トラハックは普段からYouTubeでキャリアについて発信しています。また、僕が運営するエンジニア向け学習コミュニティ内でも相談に乗っていますよ。"
+        "question": "独学でblenderやってるよ！むずいけどたのしい！"
     },
-    "community": {
+    "note": {
         "answers": [
             {
-                "content": "どんな活動をしているの？",
+                "content": "他にどんなことしてんの",
                 "nextId": "community_activity"
             },
             {
-                "content": "コミュニティに参加したい",
-                "nextId": "https://torahack.web.app/community/"
+                "content": "読みたい",
+                "nextId": "https://note.com/akinechan"
             },
             {
                 "content": "最初の質問に戻る",
                 "nextId": "init"
             }
         ],
-        "question": "2020年3月から学習コミュニティを始めました！🎉Webエンジニアへの転職を目指す人向けに、プログラミングを教えたりキャリアの相談に乗っています。"
+        "question": "noteあんま更新してない"
     },
     "community_activity": {
         "answers": [
             {
-                "content": "さらに詳細を知りたい",
-                "nextId": "https://youtu.be/tIzE7hUDbBM"
+                "content": "他の映像作品みたい",
+                "nextId": "https://www.youtube.com/user/catlikerobot/playlists?app=desktop"
             },
             {
-                "content": "コミュニティに参加したい",
-                "nextId": "https://torahack.web.app/community/"
+                "content": "フォローしたい",
+                "nextId": "https://twitter.com/akinecool"
             },
             {
                 "content": "最初の質問に戻る",
                 "nextId": "init"
             }
         ],
-        "question": "フロントエンド向けの教材の提供、キャリアや勉強法に関するメルマガの配信、週1のオンライン作業会などを開催しています！\n詳細はYouTube動画で紹介しています。"
+        "question": "いろいろチェックしてくれー"
     },
-    "dating": {
+    "whoareyou": {
         "answers": [
             {
-                "content": "DMする",
-                "nextId": "https://twitter.com/torahack_"
+                "content": "リプでもDMでも投げてな",
+                "nextId": "https://twitter.com/akinecool"
             },
             {
                 "content": "最初の質問に戻る",
                 "nextId": "init"
             }
         ],
-        "question": "まずは一緒にランチでもいかがですか？DMしてください😘"
+        "question": "俺のツイッターでも見れば？😘"
     }
 }
